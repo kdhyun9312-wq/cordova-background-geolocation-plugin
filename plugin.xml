@@ -126,6 +126,11 @@
         <resource-file src="android/common/src/main/res/xml/syncadapter.xml" target="res/xml/syncadapter.xml" />
         <resource-file src="android/common/src/main/res/xml/authenticator.xml" target="res/xml/authenticator.xml" />
 
+        <config-file target="res/values/strings.xml" parent="/resources">
+            <string name="plugin_bgloc_content_authority">$CONTENT_AUTHORITY</string>
+            <string name="plugin_bgloc_account_type">$ACCOUNT_TYPE</string>
+        </config-file>
+
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
             <service
