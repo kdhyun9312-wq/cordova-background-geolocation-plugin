@@ -194,7 +194,7 @@
             </feature>
         </config-file>
 
-        <config-file target="res/values/strings.xml" parent="/resources">
+        <config-file target="app/src/main/res/values/strings.xml" parent="/resources">
             <string name="plugin_bgloc_account_name">$ACCOUNT_NAME</string>
             <string name="plugin_bgloc_account_type">$ACCOUNT_TYPE</string>
             <string name="plugin_bgloc_content_authority">$CONTENT_AUTHORITY</string>
