@@ -125,8 +125,9 @@
 
         <resource-file src="android/common/src/main/res/xml/syncadapter.xml" target="res/xml/syncadapter.xml" />
         <resource-file src="android/common/src/main/res/xml/authenticator.xml" target="res/xml/authenticator.xml" />
+        <resource-file src="android/common/src/main/res/values/plugin_bgloc_strings.xml" target="res/values/plugin_bgloc_strings.xml" />
 
-        <config-file target="res/values/strings.xml" parent="/resources">
+        <config-file target="res/values/plugin_bgloc_strings.xml" parent="/resources">
             <string name="plugin_bgloc_content_authority">$CONTENT_AUTHORITY</string>
             <string name="plugin_bgloc_account_type">$ACCOUNT_TYPE</string>
         </config-file>
