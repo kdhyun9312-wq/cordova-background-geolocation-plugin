@@ -194,12 +194,6 @@
             </feature>
         </config-file>
 
-        <config-file target="app/src/main/res/values/strings.xml" parent="/resources">
-            <string name="plugin_bgloc_account_name">$ACCOUNT_NAME</string>
-            <string name="plugin_bgloc_account_type">$ACCOUNT_TYPE</string>
-            <string name="plugin_bgloc_content_authority">$CONTENT_AUTHORITY</string>
-        </config-file>
-
         <edit-config file="res/xml/authenticator.xml" target="/*" mode="overwrite">
           <account-authenticator
               xmlns:android="http://schemas.android.com/apk/res/android"
