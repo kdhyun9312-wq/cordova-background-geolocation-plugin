@@ -41,7 +41,7 @@
         </service>
         <provider
             android:name="com.marianhello.bgloc.data.provider.LocationContentProvider"
-            android:authorities="@string/plugin_bgloc_content_authority"
+            android:authorities="$PACKAGE_NAME.cordova_bgloc_provider"
             android:exported="false"
             android:syncable="true"/>
         <service android:enabled="true" android:exported="false" android:name="com.marianhello.bgloc.service.LocationServiceImpl" />
